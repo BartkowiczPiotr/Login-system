@@ -53,6 +53,6 @@ if(isset($_SESSION['user_id'])){
 		</div>
 
 <script type="text/javascript" src="App/js/AllertLabel.js"></script>
-<script type="text/javascript" src="App/js/controler.js"></script>
+<script type="text/javascript" src="App/js/controller.js"></script>
 </body>
 </html>

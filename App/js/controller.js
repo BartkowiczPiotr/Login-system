@@ -15,7 +15,7 @@ $(document).on('click', '#login-form__button', function(){
 	}else{
 			
 		$.ajax({
-			url: "Controler/login.php",
+			url: "Controller/login.php",
 			method: "POST",
 			data:{email:email, password:password},
 			success: function(data){
